@@ -26,7 +26,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='sections',
     version=version,
-    description=""""This is something short and sweet"""",
+    description='This is something short and sweet',
     long_description=readme + '\n\n' + history,
     author='Terence Hong',
     author_email='terryhong@gmail.com',
